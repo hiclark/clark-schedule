@@ -1,0 +1,104 @@
+/* add css styles here (optional) */
+
+.rbc-time-content {
+  background: #f9f9fa;
+}
+
+.rbc-day-slot .rbc-time-slot {
+  border: none;
+}
+
+.rbc-time-slot {
+  min-height: 1.25rem;
+}
+
+.rbc-timeslot-group {
+  border-bottom: 1px solid #cfcfd7;
+}
+
+.rbc-event-label, .rbc-allday-cell {
+  display: none;
+}
+
+.rbc-today {
+  background: none;
+}
+
+.rbc-time-content > * + * > * {
+  border-left: none;
+}
+
+.rbc-current-time-indicator {
+  background-color: #feaf38;
+  height: 2px;
+  width: 110%;
+  margin-left: -5%;
+  display: none;
+}
+
+.rbc-header, .rbc-header + .rbc-header {
+  border: none;
+}
+
+.rbc-time-header-content {
+  border-left: none;
+}
+
+.rbc-time-content {
+  max-height: 65vh;
+  border-top: 2px solid #ECEBEF;
+}
+
+.rbc-time-header.rbc-overflowing {
+  border-right: none;
+  background: white;
+  margin-right: 0px !important;
+  padding-right: 15px;
+  margin-top: 2px;
+}
+
+.rbc-time-gutter .rbc-timeslot-group {
+  border-bottom: none;
+}
+
+.rbc-time-view {
+  border: none;
+}
+
+.rbc-label {
+  font-size: .875rem;
+  color: #413e60;
+  text-transform: lowercase;
+  font-weight: 100;
+}
+
+.rbc-event {
+  border: none !important;
+}
+
+.rbc-event.default-event {
+  background: rgba(0, 132, 137, 0.8);
+  border-color: rgba(0, 132, 137, 0.8);
+}
+
+.rbc-event.default-event:hover {
+  background: rgba(0, 132, 137, 1);
+  border-color: rgba(0, 132, 137, 1);
+  z-index: 3;
+}
+
+.rbc-event.canceled-event {
+  background: #a09eaf;
+  border-color: #a09eaf;
+}
+
+.rbc-event.canceled-event:hover {
+  background: #a09eaf;
+  border-color: #a09eaf;
+  z-index: 3;
+}
+
+.rbc-event.busy-event {
+  background: #413e60;
+  border-color: #413e60;
+}
