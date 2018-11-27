@@ -30,7 +30,7 @@ For convience sake, we use the [cut-release](https://github.com/bjoerge/cut-rele
 
 ### Usage
 
-To use the library run `yarn add clark-styles`.
+To use the library run `yarn add clark-schedule`.
 
 ```jsx
 import React from 'react'
