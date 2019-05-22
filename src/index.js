@@ -111,7 +111,7 @@ type PropsType = {
   events: CalendarEventType[],
   onSelectEvent(event: CalendarEventType): void,
   onSelectSlot(event: CalendarEventType): void,
-  onNavigate(date: Date): void,
+  onNavigate?: (date: Date) => void,
   date?: string,
   className: string,
 };
