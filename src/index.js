@@ -135,10 +135,11 @@ class Schedule extends Component<PropsType, StateType> {
       events,
       onSelectSlot,
       onSelectEvent,
-      onNavigate,
+      onNavigate = () => { },
       date,
     } = this.props;
     const { selectedDate } = this.state;
+
     return (
       <BigCalendar
         className={className}
