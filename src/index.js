@@ -111,6 +111,8 @@ type PropsType = {
   events: CalendarEventType[],
   onSelectEvent(event: CalendarEventType): void,
   onSelectSlot(event: CalendarEventType): void,
+  onNavigate?: (date: Date) => void,
+  date?: string,
   className: string,
 };
 
@@ -128,7 +130,14 @@ class Schedule extends Component<PropsType, StateType> {
   };
 
   render() {
-    const { className, events, onSelectSlot, onSelectEvent } = this.props;
+    const {
+      className,
+      events,
+      onSelectSlot,
+      onSelectEvent,
+      onNavigate = () => { },
+      date,
+    } = this.props;
     const { selectedDate } = this.state;
 
     return (
@@ -144,9 +153,9 @@ class Schedule extends Component<PropsType, StateType> {
         step={15}
         timeslots={4}
         scrollToTime={scrollTarget}
-        date={selectedDate}
+        date={date || selectedDate}
         getNow={() => new Date()}
-        onNavigate={() => {}} // required for some reason
+        onNavigate={onNavigate}
         onSelectEvent={onSelectEvent}
         onSelectSlot={onSelectSlot}
         components={{
