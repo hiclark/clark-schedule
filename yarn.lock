@@ -3593,6 +3593,11 @@ es6-promisify@^5.0.0:
   dependencies:
     es6-promise "^4.0.3"
 
+escape-goat@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/escape-goat/-/escape-goat-2.1.0.tgz#0f55d3fa1d41a4175fc7a26e25bdb5b2d1afbe31"
+  integrity sha512-7fMXQmS/6yjYQT/yydWKCAm5ucuU7QtqP6/CE7BIKk6z3xTP4MLqkdUBwaViQVuTAde8yZgZIjSnEAPRl6u53g==
+
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -6873,6 +6878,13 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+open@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/open/-/open-6.3.0.tgz#60d0b845ee38fae0631f5d739a21bd40e3d2a527"
+  integrity sha512-6AHdrJxPvAXIowO/aIaeHZ8CeMdDf7qCyRNq8NwJpinmCdXhz+NZR7ie1Too94lpciCDsG+qHGO9Mt0svA4OqA==
+  dependencies:
+    is-wsl "^1.1.0"
+
 opn@5.4.0, opn@^5.1.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/opn/-/opn-5.4.0.tgz#cb545e7aab78562beb11aa3bfabc7042e1761035"
@@ -8190,6 +8202,13 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
+pupa@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/pupa/-/pupa-2.0.0.tgz#2b385e4c79d7eb7c703a6e24cbeca2c90d8cf697"
+  integrity sha512-xxy6mj9KTirR7fpsdXrIaC4oUb/uvFfchrC4K3RFxYLQ/G05RlhJIKFF2ayCQnNaFI+fOxGWzEVUhYMXHNljeQ==
+  dependencies:
+    escape-goat "^2.0.0"
+
 q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
@@ -8911,6 +8930,16 @@ rollup-plugin-url@^1.4.0:
     mime "^2.3.1"
     rollup-pluginutils "^2.0.1"
 
+rollup-plugin-visualizer@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-visualizer/-/rollup-plugin-visualizer-2.4.3.tgz#0c31e202c5e28129db4a2cba0fca92e4abbe4381"
+  integrity sha512-vlubz1TVnraK7Vjax/jwoVCpGZxba8liWp0ll3ySp6LsJ1zFXXo8gNrG9ySmtCq2jDF0FPotpiZBm7DSVbQhmg==
+  dependencies:
+    mkdirp "^0.5.1"
+    open "^6.3.0"
+    pupa "^2.0.0"
+    source-map "^0.7.3"
+
 rollup-pluginutils@^1.5.0:
   version "1.5.2"
   resolved "http://registry.npmjs.org/rollup-pluginutils/-/rollup-pluginutils-1.5.2.tgz#1e156e778f94b7255bfa1b3d0178be8f5c552408"
@@ -9273,6 +9302,11 @@ source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@^0.5.7:
 source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+
+source-map@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
+  integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
 sourcemap-codec@^1.4.1:
   version "1.4.3"

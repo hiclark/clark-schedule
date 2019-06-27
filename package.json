@@ -28,14 +28,16 @@
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0",
-    "styled-components": "2.x - 3.x"
+    "styled-components": "2.x - 3.x",
+    "clark-styles": "0.x",
+    "moment": "2.x"
   },
   "dependencies": {
-    "clark-styles": "^0.7.0",
-    "moment": "^2.22.2",
     "react-big-calendar": "^0.20.2"
   },
   "devDependencies": {
+    "moment": "^2.22.2",
+    "clark-styles": "^0.7.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^9",
     "babel-plugin-external-helpers": "^6.22.0",
@@ -72,6 +74,7 @@
     "rollup-plugin-postcss": "^1.6.3",
     "rollup-plugin-react-svg": "^2.1.0",
     "rollup-plugin-url": "^1.4.0",
+    "rollup-plugin-visualizer": "^2.4.3",
     "styled-components": "^3.3.3"
   },
   "files": [
